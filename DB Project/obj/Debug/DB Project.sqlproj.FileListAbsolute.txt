@@ -1,0 +1,6 @@
+C:\Users\sepeg\source\repos\ItemDataLibrary\DB Project\bin\Debug\DB Project.dacpac
+C:\Users\sepeg\source\repos\ItemDataLibrary\DB Project\bin\Debug\DB_Project.dll
+C:\Users\sepeg\source\repos\ItemDataLibrary\DB Project\bin\Debug\DB_Project.pdb
+C:\Users\sepeg\source\repos\ItemDataLibrary\DB Project\obj\Debug\DB Project.sqlproj.AssemblyReference.cache
+C:\Users\sepeg\source\repos\ItemDataLibrary\DB Project\obj\Debug\DB_Project.dll
+C:\Users\sepeg\source\repos\ItemDataLibrary\DB Project\obj\Debug\DB_Project.pdb

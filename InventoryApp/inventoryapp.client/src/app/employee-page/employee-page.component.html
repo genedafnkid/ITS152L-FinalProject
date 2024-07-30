@@ -1,0 +1,64 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark custom-navbar">
+  <a class="navbar-brand" href="#">Inventory Management</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/home">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/employee">Employees</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/about">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/login">Logout</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="banner">
+  <h1>Inventory Management System</h1>
+  <p>Manage your inventory efficiently and effectively</p>
+</div>
+<div class="container mt-5">
+  <div class="card">
+    <div class="card-body">
+
+      <h2 class="card-title">Employee List</h2>
+      <p>Edit the Team!</p>
+      <div class="table-responsive">
+        <div class="form-group mb-3">
+          <input type="text" class="form-control" placeholder="Search Employee..." [(ngModel)]="searchEmployee" (input)="searchEmployees()">
+        </div>
+
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th>Employee ID</th>
+              <th>Username</th>
+              <th>First Name</th>
+              <th>Last Name</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let employee of filteredEmployees">
+              <td>{{ employee.id }}</td>
+              <td>{{ employee.userName }}</td>
+              <td>{{ employee.firstName }}</td>
+              <td>{{ employee.lastName }}</td>
+              <td>
+                <button (click)="deleteEmployee(employee.id)" class="btn btn-danger">Delete</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>

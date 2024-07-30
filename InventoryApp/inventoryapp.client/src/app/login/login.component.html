@@ -1,0 +1,16 @@
+<div class="login-container">
+  <h1>WELCOME BACK!</h1>
+  <h2>Login</h2>
+  <form (ngSubmit)="onLogin()">
+    <div>
+      <label for="username">Username:</label>
+      <input type="text" id="username" [(ngModel)]="loginModel.username" name="username" required>
+    </div>
+    <div>
+      <label for="password">Password:</label>
+      <input type="password" id="password" [(ngModel)]="loginModel.password" name="password" required>
+    </div>
+    <button type="submit">Login</button>
+    <p> <a routerLink="/register">Not yet registered?</a></p>
+  </form>
+</div>

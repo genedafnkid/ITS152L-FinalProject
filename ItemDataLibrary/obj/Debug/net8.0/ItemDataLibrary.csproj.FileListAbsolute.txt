@@ -1,0 +1,12 @@
+C:\Users\sepeg\source\repos\ItemDataLibrary\ItemDataLibrary\bin\Debug\net8.0\ItemDataLibrary.deps.json
+C:\Users\sepeg\source\repos\ItemDataLibrary\ItemDataLibrary\bin\Debug\net8.0\ItemDataLibrary.dll
+C:\Users\sepeg\source\repos\ItemDataLibrary\ItemDataLibrary\bin\Debug\net8.0\ItemDataLibrary.pdb
+C:\Users\sepeg\source\repos\ItemDataLibrary\ItemDataLibrary\obj\Debug\net8.0\ItemDataLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sepeg\source\repos\ItemDataLibrary\ItemDataLibrary\obj\Debug\net8.0\ItemDataLibrary.AssemblyInfoInputs.cache
+C:\Users\sepeg\source\repos\ItemDataLibrary\ItemDataLibrary\obj\Debug\net8.0\ItemDataLibrary.AssemblyInfo.cs
+C:\Users\sepeg\source\repos\ItemDataLibrary\ItemDataLibrary\obj\Debug\net8.0\ItemDataLibrary.csproj.CoreCompileInputs.cache
+C:\Users\sepeg\source\repos\ItemDataLibrary\ItemDataLibrary\obj\Debug\net8.0\ItemDataLibrary.dll
+C:\Users\sepeg\source\repos\ItemDataLibrary\ItemDataLibrary\obj\Debug\net8.0\refint\ItemDataLibrary.dll
+C:\Users\sepeg\source\repos\ItemDataLibrary\ItemDataLibrary\obj\Debug\net8.0\ItemDataLibrary.pdb
+C:\Users\sepeg\source\repos\ItemDataLibrary\ItemDataLibrary\obj\Debug\net8.0\ref\ItemDataLibrary.dll
+C:\Users\sepeg\source\repos\ItemDataLibrary\ItemDataLibrary\obj\Debug\net8.0\ItemDataLibrary.csproj.AssemblyReference.cache
